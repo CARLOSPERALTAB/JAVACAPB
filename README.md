@@ -1,8 +1,7 @@
 # JAVACAPB
 JAVA CAPB Actividades y EVIDENCIA 
 
-# Instalcion y configuracion
-
+# Instalación y configuración
 # Uso del programa
 # Créditos
 # Licencia
