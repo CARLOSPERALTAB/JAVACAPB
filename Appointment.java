@@ -1,10 +1,9 @@
-package models;
+
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
-import models.Doctor;
-import models.Patient;
+
 
 public class Appointment extends ModelBase {
     private static List<Appointment> all = new ArrayList<Appointment>();

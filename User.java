@@ -1,4 +1,4 @@
-package models;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -40,14 +40,14 @@ public class User extends ModelBase {
     }
 
     public static User findByUsername(String username) throws Exception {
-      for (int i = 0; i < all().size(); i++) {
-          User instance = all().get(i);
-          if (instance.username.equals(username)) {
-              return instance;
-          }
-      }
-      return new User();
-  }
+        for (int i = 0; i < all().size(); i++) {
+            User instance = all().get(i);
+            if (instance.username.equals(username)) {
+                return instance;
+            }
+        }
+        return new User();
+    }
 
     private static int nextAvailableId() throws Exception {
         int higher = 0;
@@ -79,11 +79,11 @@ public class User extends ModelBase {
     }
 
     public boolean persisted() {
-      return this.persisted;
+        return this.persisted;
     }
 
     public boolean authenticate(String password) {
-      return this.password.equals(password);
+        return this.password.equals(password);
     }
 
     public void delete() throws Exception {
