@@ -1,5 +1,3 @@
-package edu.TecMilenio;
-
 public class Practica_03_Card {
     private String palo;
     private String color;
