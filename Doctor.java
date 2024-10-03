@@ -9,7 +9,7 @@ import java.util.List;
 
 public class Doctor extends ModelBase {
     private static List<Doctor> all = new ArrayList<Doctor>();
-    private final static String databasePath = "src/db/doctors.csv";
+    private final static String databasePath = "doctors.csv";
 
     private boolean persisted = false;
     public String firstName;
