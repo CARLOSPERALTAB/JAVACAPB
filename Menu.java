@@ -19,7 +19,7 @@ public class Menu {
 
     public static void printWelcome() {
         System.out.println("\n------------------");
-        System.out.println("MediClinic v1.0");
+        System.out.println("EVIDENCIA FINAL CONSULTORIO);
         System.out.println("------------------\n");
     }
 
@@ -42,8 +42,7 @@ public class Menu {
         System.out.println("\n1. Listado");
         System.out.println("2. Buscar");
         System.out.println("3. Agregar");
-        System.out.println("4. Editar");
-        System.out.println("5. Eliminar");
+        System.out.println("4. Eliminar");
         String select = ask("\nSeleccione una opción: ");
         if (select.equals("1")) {
             list(model);
@@ -51,7 +50,7 @@ public class Menu {
             find(model);
         } else if (select.equals("3")) {
             create(model);
-        } else if (select.equals("5")) {
+        } else if (select.equals("4")) {
             delete(model);
         }
     }
