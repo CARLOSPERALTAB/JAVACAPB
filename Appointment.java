@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Appointment extends ModelBase {
     private static List<Appointment> all = new ArrayList<Appointment>();
-    private final static String databasePath = "src/db/appointments.csv";
+    private final static String databasePath = "appointments.csv";
 
     private boolean persisted = false;
     public Integer doctorId;
